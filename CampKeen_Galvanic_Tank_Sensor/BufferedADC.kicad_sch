@@ -1,0 +1,1352 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "97e91b8b-f5c5-4753-a196-05ffdcfc219c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:OPA4340UA"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 31.75 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA4340UA"
+				(at 31.75 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-14N"
+				(at 31.75 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/opa4340"
+				(at 31.75 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-Supply, Rail-to-Rail Operational Amplifiers MicroAmplifier Series"
+				(at 31.75 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 31.75 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-OPA4340UA"
+				(at 31.75 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA4340UA?qs=wgAEGBTxy7nRw0DNGsw%252Bcg%3D%3D"
+				(at 31.75 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 31.75 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "OPA4340UA"
+				(at 31.75 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "OPA4340UA_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "OUT_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "-IN_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "+IN_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "+IN_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "-IN_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "OUT_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "OUT_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -2.54 180)
+					(length 5.08)
+					(name "-IN_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "+IN_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -7.62 180)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -10.16 180)
+					(length 5.08)
+					(name "+IN_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -12.7 180)
+					(length 5.08)
+					(name "-IN_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -15.24 180)
+					(length 5.08)
+					(name "OUT_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA4340UA_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 30.48 2.54) (xy 30.48 -17.78) (xy 5.08 -17.78) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 151.13 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "134cb6d9-b3a4-48a1-a474-5d9f17917593")
+	)
+	(junction
+		(at 151.13 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66757fe1-ba55-464f-a698-6b6e574fe263")
+	)
+	(junction
+		(at 115.57 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94866e01-aa91-40b2-8a48-adc2695312c1")
+	)
+	(junction
+		(at 115.57 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f32fe838-c2b4-4662-b81e-fc96641c8d3e")
+	)
+	(wire
+		(pts
+			(xy 115.57 81.28) (xy 115.57 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "059c8440-0d5c-40da-b64b-638d90e743be")
+	)
+	(wire
+		(pts
+			(xy 83.82 86.36) (xy 115.57 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07601a3e-1687-4a99-9540-2b1434b9c373")
+	)
+	(wire
+		(pts
+			(xy 115.57 96.52) (xy 115.57 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078df9a2-4938-47dc-9295-c05ef41bcabe")
+	)
+	(wire
+		(pts
+			(xy 151.13 66.04) (xy 151.13 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b54b6c4-03e7-48f6-8a66-24213d86a85b")
+	)
+	(wire
+		(pts
+			(xy 115.57 67.31) (xy 115.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5956e6-c0bf-4bab-9902-d00f31da7008")
+	)
+	(wire
+		(pts
+			(xy 102.87 74.93) (xy 102.87 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299a6209-f122-4f28-ae3c-f0f6ad870b0d")
+	)
+	(wire
+		(pts
+			(xy 151.13 91.44) (xy 191.77 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8ba12d-9209-4785-af58-ee21dc42a0ec")
+	)
+	(wire
+		(pts
+			(xy 151.13 93.98) (xy 151.13 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69101aab-b300-4013-b9d0-f918fb64701b")
+	)
+	(wire
+		(pts
+			(xy 151.13 96.52) (xy 160.02 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b26dc54-97bb-4d31-8ccd-ef51f5e07147")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 115.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73711c19-1198-441b-911e-a047499701c5")
+	)
+	(wire
+		(pts
+			(xy 151.13 66.04) (xy 160.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e92911c-03fa-44ce-9826-f18eee2ce0b9")
+	)
+	(wire
+		(pts
+			(xy 151.13 81.28) (xy 151.13 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "968e6e2b-880a-4cba-9e61-a6102d2be1d7")
+	)
+	(wire
+		(pts
+			(xy 115.57 67.31) (xy 102.87 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5fd14c7-0edb-40ba-a8e7-c0815e06352b")
+	)
+	(wire
+		(pts
+			(xy 160.02 104.14) (xy 160.02 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b995e0b8-d726-40cf-b1dd-29f3cd3271dd")
+	)
+	(wire
+		(pts
+			(xy 110.49 88.9) (xy 115.57 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bebb5259-b225-40e0-8dbc-66788dbbe2f8")
+	)
+	(wire
+		(pts
+			(xy 160.02 73.66) (xy 160.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21626ef-4d07-47f7-99ed-fd1193451ce2")
+	)
+	(wire
+		(pts
+			(xy 151.13 86.36) (xy 189.23 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefb5e1f-b39d-4ecb-8c5f-23f372537c78")
+	)
+	(wire
+		(pts
+			(xy 151.13 88.9) (xy 156.21 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee808e9f-7d3a-433e-af02-0b650089f203")
+	)
+	(wire
+		(pts
+			(xy 115.57 121.92) (xy 115.57 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15c3795-b9dd-4824-ad1f-5791428a6b66")
+	)
+	(wire
+		(pts
+			(xy 83.82 91.44) (xy 115.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa35bb3-2047-4acf-bc66-00fc63e7abe7")
+	)
+	(hierarchical_label "ADCOUT1"
+		(shape input)
+		(at 102.87 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "172de716-6396-4c8a-beea-f4f7ef3c216d")
+	)
+	(hierarchical_label "ADCOUT3"
+		(shape input)
+		(at 160.02 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a655124-5f81-4f89-93f0-7e9771a081f6")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 154.94 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e270c7f-4ae5-4d97-ac11-54b976c2fde4")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 160.02 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42aa0b8b-5fd1-4eca-ac3f-820b92c78845")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 102.87 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49e95d7e-2ef9-45ef-9027-aa674edfe23b")
+	)
+	(hierarchical_label "ADCIN1"
+		(shape input)
+		(at 83.82 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ab22c52-b4e4-4a9c-a27f-9a247f4a2135")
+	)
+	(hierarchical_label "ADCIN2"
+		(shape input)
+		(at 83.82 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57d62463-9fd2-4707-8003-4fffa54bb868")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 115.57 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6444f892-9a31-46f2-83c4-1e5b37ed3356")
+	)
+	(hierarchical_label "ADCOUT4"
+		(shape input)
+		(at 159.385 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae2d6eea-46de-4516-935b-7a0a0f8ae300")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 110.49 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b112a370-d76b-45d6-af3d-2d966fc82fb4")
+	)
+	(hierarchical_label "ADCOUT2"
+		(shape input)
+		(at 115.57 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bcf82e1e-fac3-49e2-82b3-728f35cf6b43")
+	)
+	(hierarchical_label "ADCIN4"
+		(shape input)
+		(at 189.23 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0669b48-0978-4de0-80e7-5c9f626cf6c5")
+	)
+	(hierarchical_label "ADCIN3"
+		(shape input)
+		(at 191.77 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6ec95ea-0f7e-4c77-b729-b4294bcdb3a3")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 160.02 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5c7ece5-bcec-4dc6-82be-c8eeb720e44d")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 102.87 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0381b35b-f354-47d9-8171-23b2631ffc7a")
+		(property "Reference" "R10"
+			(at 108.1278 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "47K"
+			(at 105.8164 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 104.648 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52173272-d4b4-4db1-9f59-499385a8c9f8")
+		)
+		(pin "2"
+			(uuid "0b84b2f0-f053-4393-aaee-5eb22bb99f6f")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Pressure"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/1d6692e6-3da6-4bb1-8db9-92d5a320b8aa"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "AMS-Mega2560-Base"
+				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/4fa38cd6-152a-4f14-8b73-29a5177e2f36"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/c390175f-6da3-488d-b45d-a38073c08c6d"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7095ed40-245e-46df-b690-25ed1287d846")
+		(property "Reference" "R11"
+			(at 120.8278 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 118.5164 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 117.348 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c4abd93-261c-41e0-a681-0aaaa34fa4bf")
+		)
+		(pin "2"
+			(uuid "f425e213-d594-41ce-9488-f9311361d427")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Pressure"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/1d6692e6-3da6-4bb1-8db9-92d5a320b8aa"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "AMS-Mega2560-Base"
+				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/4fa38cd6-152a-4f14-8b73-29a5177e2f36"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/c390175f-6da3-488d-b45d-a38073c08c6d"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af25bd9f-4d33-4089-b5be-0829a975edac")
+		(property "Reference" "R12"
+			(at 165.2778 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 162.9664 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 161.798 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6ab0e22-a23d-4ea6-b91f-f33ab612b102")
+		)
+		(pin "2"
+			(uuid "5480c3b9-8d78-4969-bee0-4c658fe2d2d1")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Pressure"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/1d6692e6-3da6-4bb1-8db9-92d5a320b8aa"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "AMS-Mega2560-Base"
+				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/4fa38cd6-152a-4f14-8b73-29a5177e2f36"
+					(reference "R68")
+					(unit 1)
+				)
+				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/c390175f-6da3-488d-b45d-a38073c08c6d"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f36e7beb-ff09-4cbf-b63f-0d0ec0d02254")
+		(property "Reference" "R13"
+			(at 165.2778 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 162.9664 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 161.798 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90cba8c4-6bb7-4062-bca3-8d1eda68a011")
+		)
+		(pin "2"
+			(uuid "59ca58ca-422d-46c8-9ffe-7e4ae674c706")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Pressure"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/1d6692e6-3da6-4bb1-8db9-92d5a320b8aa"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+			(project "AMS-Mega2560-Base"
+				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/4fa38cd6-152a-4f14-8b73-29a5177e2f36"
+					(reference "R69")
+					(unit 1)
+				)
+				(path "/7d0dab95-9e7a-486e-a1d7-fc48860fd57d/c390175f-6da3-488d-b45d-a38073c08c6d"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:OPA4340UA")
+		(at 115.57 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fce28742-0cf8-445a-8765-023717f6d9a1")
+		(property "Reference" "IC2"
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA4340UA"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys:SOIC127P600X175-14N"
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/opa4340"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-Supply, Rail-to-Rail Operational Amplifiers MicroAmplifier Series"
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-OPA4340UA"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA4340UA?qs=wgAEGBTxy7nRw0DNGsw%252Bcg%3D%3D"
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "OPA4340UA"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c7cf9ed4-d05a-44bf-aca6-7f77f25a898f")
+		)
+		(pin "6"
+			(uuid "ae36d54c-e255-4595-bd83-513b9dee9b6b")
+		)
+		(pin "2"
+			(uuid "f9d3d905-cb62-47fe-82f9-657fe7257b91")
+		)
+		(pin "7"
+			(uuid "ed36236a-3928-49b6-bcb9-9ac38a5834ce")
+		)
+		(pin "9"
+			(uuid "55ed6efc-8ae0-4b0c-9cdf-1e30ee1a577d")
+		)
+		(pin "14"
+			(uuid "a12dadb1-5aea-425e-b4b9-95a3bc902b72")
+		)
+		(pin "5"
+			(uuid "f08d5677-e63e-4793-9be5-c7a35812841f")
+		)
+		(pin "10"
+			(uuid "14be7836-6447-435f-959c-f94b17dab0d7")
+		)
+		(pin "11"
+			(uuid "bd5230e3-32bf-4fd7-bffe-a03c5c31d078")
+		)
+		(pin "13"
+			(uuid "50c1a60d-5902-45c2-84d0-bfd8a94fcf2c")
+		)
+		(pin "12"
+			(uuid "1a849f0a-b19a-477c-b929-cbc6b7b31cb2")
+		)
+		(pin "1"
+			(uuid "88b71ecd-9486-45e9-8011-df21b0859b51")
+		)
+		(pin "4"
+			(uuid "131e49c1-7dfd-4fee-bfac-df5e3e5ec591")
+		)
+		(pin "8"
+			(uuid "f5622a3d-a989-41e3-9724-a1613b1a2324")
+		)
+		(instances
+			(project "AMS - CANBus Sensor - Pressure"
+				(path "/1c8b441e-37da-469b-a62d-a2093a833f7a/1d6692e6-3da6-4bb1-8db9-92d5a320b8aa"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
